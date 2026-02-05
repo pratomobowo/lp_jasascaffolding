@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://scaffoldingku.id/sitemap.xml

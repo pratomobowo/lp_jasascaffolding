@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #00a9b5;
+    --color-primary-dark: #008a94;
+    --color-charcoal: #1b0d10;
+    --color-background-light: #f8f9fa;
+    --color-background-dark: #121212;
+
+    --font-display: "Public Sans", sans-serif;
+    --font-sans: "Public Sans", sans-serif;
+}
+
+body {
+    font-family: "Public Sans", sans-serif;
+}
