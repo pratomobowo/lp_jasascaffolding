@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="google-site-verification" content="Li7OgDpZjuwJMRH46_LS1d24W1d0fy8uFi4zPfnf4KU" />
 
   <!-- SEO & Ads Optimization -->
   <title>Sewa Excavator & Alat Berat Indonesia - Solusi Alat Berat Terpercaya</title>
@@ -16,53 +17,60 @@
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.solusialatberat.my.id/" />
-  <meta property="og:title" content="Sewa Excavator & Alat Berat Nasional - SolusiAlatBerat" />
+  <meta property="og:title" content="Sewa Excavator & Alat Berat - Siap Kirim Se-Indonesia" />
   <meta property="og:description"
     content="Solusi alat berat konstruksi di Bandung. Unit Excavator SK50, SK75, SK200 ready jalan. Harga kompetitif & operator berpengalaman." />
-  <meta property="og:image"
-    content="https://lh3.googleusercontent.com/aida-public/AB6AXuC92CHQ9hXIGrWBZhTwT0-en5tO7MkmODmESfIeXZnv8n49F0BhkBc2LPFTwz23S9eBY_npJJvVuErwvqhT8ghjAx_b7JxjQGanL6LpyM_XnpL_LdMc24acYUe--Oot5oJrqeLSUKOtLzphP4a7wLbsNLHHvgv9anT8PYK8XXq17nISZDl0x0da8rNNtP11YHCg0DmsIWYk4_G0v8dyVRJ4710TjR3ILZZevhsbR-888W1s8s-PSNqPkBIBO-DXHm_JI1sfmolomD8" />
+  <meta property="og:image" content="https://www.solusialatberat.my.id/foto-foto/scaffoldingku-kobelco.webp" />
 
-  <!-- Google Tag Manager (Placeholder) -->
-  <!-- 
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-XXXXXX');</script> 
-    -->
-  <!-- End Google Tag Manager -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C1BH20HC6Y"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-C1BH20HC6Y');
+  </script>
+
+  <!-- WhatsApp Click Tracking -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Find all links containing wa.me
+      const waLinks = document.querySelectorAll('a[href*="wa.me"]');
+      waLinks.forEach(link => {
+        link.addEventListener('click', function () {
+          gtag('event', 'generate_lead', {
+            'event_category': 'Engagement',
+            'event_label': 'WhatsApp Click',
+            'value': 1.0
+          });
+          // Also a specific event for Ads
+          gtag('event', 'click_whatsapp', {
+            'send_to': 'G-C1BH20HC6Y'
+          });
+        });
+      });
+    });
+  </script>
 
   <!-- Schema Markup (JSON-LD) -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
+      "@type": "Organization",
       "name": "SolusiAlatBerat",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuC92CHQ9hXIGrWBZhTwT0-en5tO7MkmODmESfIeXZnv8n49F0BhkBc2LPFTwz23S9eBY_npJJvVuErwvqhT8ghjAx_b7JxjQGanL6LpyM_XnpL_LdMc24acYUe--Oot5oJrqeLSUKOtLzphP4a7wLbsNLHHvgv9anT8PYK8XXq17nISZDl0x0da8rNNtP11YHCg0DmsIWYk4_G0v8dyVRJ4710TjR3ILZZevhsbR-888W1s8s-PSNqPkBIBO-DXHm_JI1sfmolomD8",
-      "description": "Pusat Sewa Scaffolding SNI dan Excavator Alat Berat Terlengkap di Bandung.",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Jl. Soekarno-Hatta No. 456",
-        "addressLocality": "Indonesia",
-        "addressRegion": "Nasional",
-        "postalCode": "40285",
-        "addressCountry": "ID"
+      "url": "https://www.solusialatberat.my.id",
+      "logo": "https://www.solusialatberat.my.id/logo.png",
+      "description": "Sewa Excavator, Scaffolding & Alat Berat - Siap Kirim Se-Indonesia. Sewa fleksibel per jam, hari, atau bulan.",
+      "areaServed": "Indonesia",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+62-822-1695-9900",
+        "contactType": "sales",
+        "availableLanguage": "Indonesian"
       },
-      "telephone": "+62221234567",
-      "priceRange": "$$",
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday"
-        ],
-        "opens": "08:00",
-        "closes": "17:00"
-      }
+      "sameAs": [
+        "https://wa.me/6282216959900"
+      ]
     }
     </script>
 
@@ -78,9 +86,14 @@
       <header
         class="flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-200 dark:border-gray-800 px-6 md:px-10 py-4 sticky top-0 bg-white/95 dark:bg-background-dark/95 backdrop-blur-md z-50">
         <div class="flex items-center gap-3">
-          <h2
-            class="text-charcoal dark:text-white text-xl md:text-3xl font-black leading-tight tracking-tight uppercase">
-            Solusi<span class="text-primary">AlatBerat</span></h2>
+          <div class="w-10 h-10 md:w-12 md:h-12 bg-primary rounded-lg flex items-center justify-center">
+            <span class="text-white text-xl md:text-2xl font-black">S</span>
+          </div>
+          <div class="flex flex-col leading-none">
+            <span
+              class="text-charcoal dark:text-white text-lg md:text-xl font-black uppercase tracking-tight">Solusi</span>
+            <span class="text-primary text-sm md:text-base font-bold uppercase tracking-wide">Alat Berat</span>
+          </div>
         </div>
         <div class="flex flex-1 justify-end gap-8 items-center">
           <nav class="hidden md:flex items-center gap-8">
@@ -104,8 +117,7 @@
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div class="flex flex-col gap-8 order-2 lg:order-1">
               <div class="flex flex-col gap-4">
-                <span class="text-primary font-bold tracking-widest text-sm uppercase">Pusat Sewa Scaffolding & Alat
-                  Berat Nasional</span>
+                <span class="text-primary font-bold tracking-widest text-sm uppercase">✓ Siap Kirim Ke Mana Saja</span>
                 <h1 class="text-charcoal dark:text-white text-4xl md:text-6xl font-black leading-[1.1] tracking-tight">
                   Solusi <span class="text-primary">Scaffolding</span> & <span class="text-primary">Excavator</span>
                   Terpercaya
@@ -532,13 +544,36 @@
             </div>
           </div>
         </section>
-        <div class="bg-primary rounded-3xl p-8 md:p-16 text-center text-white relative overflow-hidden">
+        <div class="bg-primary rounded-3xl p-8 md:p-16 text-white relative overflow-hidden">
           <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-32 -mt-32"></div>
           <div class="absolute bottom-0 left-0 w-48 h-48 bg-black/10 rounded-full -ml-24 -mb-24"></div>
-          <div class="relative z-10 max-w-2xl mx-auto flex flex-col gap-8">
-            <h2 class="text-3xl md:text-5xl font-black leading-tight">Mulai Proyek Anda Sekarang</h2>
-            <p class="text-white/90 text-lg">Hubungi kami hari ini untuk penawaran harga spesial sewa Scaffolding dan
-              Alat Berat pengiriman ke seluruh Indonesia.</p>
+          <div class="relative z-10 max-w-4xl mx-auto">
+            <div class="text-center mb-10">
+              <h2 class="text-3xl md:text-5xl font-black leading-tight mb-4">Mulai Proyek Anda Sekarang</h2>
+              <p class="text-white/90 text-lg max-w-xl mx-auto">Hubungi kami hari ini dan dapatkan penawaran terbaik
+                untuk kebutuhan proyek Anda.</p>
+            </div>
+
+            <!-- Trust Signals Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-10">
+              <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
+                <span class="material-symbols-outlined text-3xl mb-2">local_shipping</span>
+                <p class="font-bold text-sm">Siap Kirim<br>Se-Indonesia</p>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
+                <span class="material-symbols-outlined text-3xl mb-2">schedule</span>
+                <p class="font-bold text-sm">Sewa per Jam,<br>Hari, atau Bulan</p>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
+                <span class="material-symbols-outlined text-3xl mb-2">verified</span>
+                <p class="font-bold text-sm">Unit Terawat<br>& Bersertifikat</p>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
+                <span class="material-symbols-outlined text-3xl mb-2">support_agent</span>
+                <p class="font-bold text-sm">Fast Response<br>24 Jam</p>
+              </div>
+            </div>
+
             <div class="flex flex-wrap justify-center gap-4">
               <a href="https://wa.me/6282216959900?text=Halo%20mau%20tanya" target="_blank"
                 class="bg-white text-primary px-10 py-4 rounded-lg font-black text-lg hover:bg-gray-100 transition-colors shadow-xl">Konsultasi
@@ -555,12 +590,18 @@
         <div class="max-w-[1280px] mx-auto px-4 md:px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div class="flex flex-col gap-6">
             <div class="flex items-center gap-3">
-              <h2 class="text-3xl font-black uppercase">Solusi<span class="text-primary">AlatBerat</span></h2>
+              <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
+                <span class="text-white text-2xl font-black">S</span>
+              </div>
+              <div class="flex flex-col leading-none">
+                <span class="text-white text-xl font-black uppercase tracking-tight">Solusi</span>
+                <span class="text-primary text-base font-bold uppercase tracking-wide">Alat Berat</span>
+              </div>
             </div>
             <p class="text-gray-400 text-sm leading-relaxed">
-              Pusat spesialis penyewaan excavator & scaffolding Nasional. Pengalaman lebih dari 12 tahun melayani
-              konstruksi
-              Indonesia dengan standar pelayanan terbaik.
+              Spesialis penyewaan excavator & scaffolding dengan pengiriman ke seluruh Indonesia. Pengalaman lebih dari
+              12 tahun melayani
+              konstruksi dengan standar pelayanan terbaik.
             </p>
             <div class="flex gap-4">
               <a class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors"
